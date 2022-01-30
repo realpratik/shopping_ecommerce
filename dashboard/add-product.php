@@ -51,10 +51,10 @@
           <?php
               if($_POST)
               {
-                $category_name = htmlspecialchars($_POST['category_name']);
-                $product_name = htmlspecialchars($_POST['product_name']);
-                $price = htmlspecialchars($_POST['price']);
-                $details = htmlspecialchars($_POST['details']);
+                $categoryname = htmlspecialchars($_POST['category_name']);
+                $productname = htmlspecialchars($_POST['product_name']);
+                $prodprice = htmlspecialchars($_POST['price']);
+                $proddetails = htmlspecialchars($_POST['details']);
                 
                 //db
                 include "dashboardclass.php";
@@ -62,11 +62,11 @@
                 $file_name = $_FILES['f1']['name'];
                 $file_tmp = $_FILES['f1']['tmp_name'];
                 $dir = "uploads/"; // directory to save image
-                $merge = $dir.$file_name; // location and name of image
-                move_uploaded_file($file_tmp, $merge);
+                $prodimage = $dir.$file_name; // location and name of image
+                move_uploaded_file($file_tmp, $prodimage);
                   
                   $obj = new DashboardClass("localhost","root","root","ecommerce");
-                  $obj->add_product($category_name,$product_name,$price,$details,$merge);
+                  $obj->add_product($categoryname,$productname,$prodprice,$proddetails,$prodimage);
                   
                   echo "<p class='alert alert-success'> Image uploaded successfully</p>";
               }

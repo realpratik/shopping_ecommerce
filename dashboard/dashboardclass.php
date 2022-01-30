@@ -51,8 +51,9 @@ class DashboardClass {
   }
 
 
-    function add_product($category_name,$product_name,$price,$details,$merge){
-      mysqli_query($this->con, "INSERT into products(categoryname, productname, price, details, image1) VALUES ('$category_name','$product_name','$price','$details','$merge')");
+    function add_product($categoryname,$productname,$prodprice,$proddetails,$prodimage){
+      mysqli_query($this->con, "INSERT into products(categoryname, productname, price, details, image1)
+       VALUES ('$categoryname','$productname','$prodprice','$proddetails','$prodimage')");
     }
 
     function product_list(){
@@ -64,6 +65,7 @@ class DashboardClass {
           <th>Product Name</th>
           <th>Category Name</th>
           <th>price</th>
+          <th>Details</th>
           <th></th>
         </tr>
   <?php
@@ -71,20 +73,21 @@ class DashboardClass {
             echo "<tr>";
               echo "<td>";
   ?>
-                <img src="<?php echo $k['image']?>"/>
+                <img src="<?php echo $k['image1']?>"/>
   <?php      
-                echo "</td>";
-              echo "<td>";
-                echo $k['productname'];
               echo "</td>";
               echo "<td>";
                 echo $k['categoryname'];
               echo "</td>";
               echo "<td>";
+                echo $k['productname'];
+              echo "</td>";
+             
+              echo "<td>";
                 echo $k['price'];
               echo "</td>";  
               echo "<td>";
-                echo $k['price'];
+                echo $k['details'];
               echo "</td>";  
             echo "</tr>";
           }
@@ -95,8 +98,11 @@ class DashboardClass {
     }
 
     function add_coupon($couponcode,$coupondiscount){
-      mysqli_query($this->con, "INSERT INTO coupons(coupon_code,discount) VALUES ('$couponcode','$coupondiscount')");
+      mysqli_query($this->con, "INSERT INTO coupons(coupon_code,discount) VALUES 
+      ('$couponcode','$coupondiscount')");
     }
+
+
 
     function show_coupon(){
       

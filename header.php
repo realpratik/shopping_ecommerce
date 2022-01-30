@@ -1,4 +1,7 @@
-<?php ob_start();  // this is a PHP function to force header() function.
+<?php 
+ob_start();  // this is a PHP function to force header() function.
+
+include "connection.php";
 
 ?>
 
@@ -53,7 +56,7 @@
                         <div class="sidebar-info-contents">
                             <div class="content-inner">
                                 <div class="logo">
-                                    <a href="index.php"><img src="assets/images/logo-2.png" alt=""></a>
+                                    <a href="index.php"><img src="assets/images/hats/hat8.jpeg" alt=""></a>
                                 </div>
                                 <div class="content-box">
                                     <h4>About Us</h4>
