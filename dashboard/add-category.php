@@ -37,8 +37,8 @@
           //db
           include "dashboardclass.php";
 
-          $obj = new DashboardClass("localhost","root","root","ecommerce");
-          //$obj = new DashboardClass("localhost","root","root","ecommerce");
+         $obj = new DashboardClass("yourhost","un","pw","db_name");
+        
           $obj->add_category($category_name);
           echo "</br>";
           echo "<p class='alert alert-success'> Category has been saved.</p>";
