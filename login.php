@@ -44,8 +44,8 @@
                            //db 
                            include "myclass.php";
 
-                           $obj = new MyClass("localhost","root","root","ecommerce");
-                           //$obj = new MyClass("localhost","root","root","ecommerce");
+                           $obj = new MyClass("your_ost","pw","pw","your_db_name");
+                       
                            $obj->login($email,$password);
                         }
 
