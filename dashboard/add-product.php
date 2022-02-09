@@ -26,7 +26,7 @@
             <label>Category Name </lable>
             <select name="category_name" class="form-control">
             <?php
-              $con = mysqli_connect("localhost","root","root","ecommerce");
+              $obj = new DashboardClass("yourhost","un","pw","db_name");
               $query = mysqli_query($con,"select * from categories");
               while($k = mysqli_fetch_array($query))
               {
@@ -65,7 +65,7 @@
                 $prodimage = $dir.$file_name; // location and name of image
                 move_uploaded_file($file_tmp, $prodimage);
                   
-                  $obj = new DashboardClass("localhost","root","root","ecommerce");
+                  $obj = new DashboardClass("yourhost","un","pw","db_name");
                   $obj->add_product($categoryname,$productname,$prodprice,$proddetails,$prodimage);
                   
                   echo "<p class='alert alert-success'> Image uploaded successfully</p>";
