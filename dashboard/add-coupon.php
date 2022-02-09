@@ -38,7 +38,7 @@
                   include "dashboardclass.php";
 
 
-                  $obj = new DashboardClass("localhost","root","root","ecommerce");
+                  $obj = new DashboardClass("yourhost","un","pw","db_name");
                   $obj->add_coupon($couponcode,$coupondiscount);
 
                   echo "</br>";
