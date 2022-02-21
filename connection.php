@@ -1,5 +1,5 @@
 <?php
 
-$con = mysqli_connect("localhost","root","root","ecommerce");
+$con = mysqli_connect("host","un","pw,"db");
 
 ?>
