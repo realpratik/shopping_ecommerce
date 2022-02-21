@@ -1,0 +1,8 @@
+*.txt
+.github
+build
+dist
+docs
+plugins
+babelrc.js
+

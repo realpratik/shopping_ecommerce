@@ -68,7 +68,7 @@
                   $obj = new DashboardClass("yourhost","un","pw","db_name");
                   $obj->add_product($categoryname,$productname,$prodprice,$proddetails,$prodimage);
                   
-                  echo "<p class='alert alert-success'> Image uploaded successfully</p>";
+                  echo "<p class='alert alert-success'> Uploaded successfully</p>";
               }
       ?>
 

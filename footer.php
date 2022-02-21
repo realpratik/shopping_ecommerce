@@ -4,14 +4,7 @@
                 <div class="footer-top">
                     <div class="widget-section">
                         <div class="row clearfix">
-                            <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                                <div class="footer-widget logo-widget">
-                                    <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a></figure>
-                                    <div class="text">
-                                        <p>Come and get our fresh produce today or phone to order. We also deliver ! </p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                                 <div class="footer-widget contact-widget">
                                     <ul class="info clearfix">
@@ -41,7 +34,7 @@
                                         <h6>Newsletter</h6>
                                     </div>
                                     <div class="widget-content">
-                                        <p>Stay Updated on all that’s new add noteworthy</p>
+                                        <p>Subscribe</p>
                                         <form action="contact.html" method="post" class="newsletter-form">
                                             <div class="form-group">
                                                 <input type="email" name="email" placeholder="Email" required="">
@@ -55,12 +48,12 @@
                     </div>
                 </div>
                 <div class="footer-bottom clearfix">
-                    <div class="copyright pull-left"><h5>&copy;2022 CopyRight. All rights reserved.<a href="http://profile.therealpratik.com/"><i>Designed by: Developer</i></a</h5></div>
+                    <div class="copyright pull-left"><h5>&copy; <?php echo date("Y");?></h5></div>
                     <ul class="footer-nav pull-right clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="index.html">Blog</a></li>
-                        <li><a href="index.html">Contact</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Career</a></li>
                     </ul>
                 </div>
             </div>
