@@ -187,5 +187,16 @@ class DashboardClass {
 
     }
 
+
+
+
+    function show_orders(){
+
+      $query = mysqli_query($this->con, "SELECT * FROM orders");
+
+
+
+    }
+
 }
 

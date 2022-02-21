@@ -73,7 +73,7 @@
                                         <p>Our fabrics are from around the best in the world</p>
                                     <ul class="list clearfix">
                                         <li>100% cotton fabrics</li>
-                                        <li>Payment Securation</li>
+                                        <li>Secured Payment</li>
                                     </ul>
                                     <div class="btn-box">
                                         <a href="about.html" class="theme-btn">View More<i class="fas fa-long-arrow-alt-right"></i></a>
@@ -86,12 +86,6 @@
             </div>
         </section>
         <!-- about-section end -->
-
-
-       
-
-
-       
 
         <!-- shop-section -->
         <section class="shop-section">
@@ -129,53 +123,11 @@
                     
                 </div>
                 <div class="more-btn centred">
-                    <a href="shop-1.html" class="theme-btn">Shop Now</a>
+                    <a href="#" class="theme-btn">Shop Now</a>
                 </div>
             </div>
         </section>
-        <!-- shop-section end -->
-
-
-       
-
-
-        <!-- testimonial-section -->
-        <section class="testimonial-section">
-            <div class="auto-container">
-                <div class="sec-title style-two">
-                    <span>Testimonials</span>
-                    <h2>Why People Believe in Us!</h2>
-                </div>
-                <div class="two-column-carousel owl-carousel owl-theme owl-dots-none">
-                    <div class="testimonial-block-one">
-                        <div class="inner-box">
-                            <div class="icon-box"><i class="flaticon-quote"></i></div>
-                            <!-- <p>Slore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p> -->
-                            <div class="author-box">
-                                <figure class="image-box"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                                <h5>Richard K. Le</h5>
-                                <span class="designation">HD Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-block-one">
-                        <div class="inner-box">
-                            <div class="icon-box"><i class="flaticon-quote"></i></div>
-                            <!-- <p>Asi enim ad minim veniam, quis nostrud exerci tation uLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p> -->
-                            <div class="author-box">
-                                <figure class="image-box"><img src="assets/images/resource/testimonial-2.png" alt=""></figure>
-                                <h5>Donnell J. Creech</h5>
-                                <span class="designation">Sonographer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- testimonial-section end -->
-
-
-       
+        <!-- shop-section end -->       
        
 
 
